@@ -13,7 +13,7 @@ export default {
   },
   data(){
     return {
-      message : `You are the ${this.getRandom()}th visitor` 
+      message : `You are the ${this.getRandom()}th visitor. You win ${this.getRandom() * 100} €. Contact us to get your price` 
     }
   },
   methods:{
