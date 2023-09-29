@@ -1,24 +1,16 @@
 # semantic-release
 
+This is a basic vue application
+
 ## Project setup
+
 ```
-yarn install
+yarn 
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Exercice :
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Fork this project
+2. Change the message "Welcome to Your Vue.js App" to "Semantic Release Exercice"
+3. Add a new message :
