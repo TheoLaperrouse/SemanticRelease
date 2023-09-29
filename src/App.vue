@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld :msg="message"/>
 </template>
 
 <script>
@@ -10,6 +10,16 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  data(){
+    return {
+      message : `You are the ${this.getRandom()}th visitor` 
+    }
+  },
+  methods:{
+    getRandom(){
+      return Math.floor(Math.random() * 100);
+    }
   }
 }
 </script>
